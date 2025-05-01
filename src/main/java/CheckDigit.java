@@ -32,7 +32,7 @@ public class CheckDigit
    public static boolean isValid(int numWithCheckDigit)    
    {      
      /* to be implemented in part (b) */    
-     int d = getCheck(numWithCheckDigit);
+     int d = getCheck(numWithCheckDigit/10);
      return d==numWithCheckDigit%10;
    }    
    
